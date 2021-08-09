@@ -1,0 +1,30 @@
+{
+  "name": "xltodb",
+  "version": "1.0.0",
+  "description": "XlToDb is a node package that collects data from an excel file and adds the collected rows to the MongoDB database. The package uses the column header or the 1st row as the key elements and forms an object with each row. Quick and easy to implement.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "node.js",
+    "excel to json",
+    "read from excel",
+    "json to MongoDB",
+    "excel MongoDB",
+    "excel to database"
+  ],
+  "author": "Lakshya Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "xlsx": "^0.17.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lakshyakumar/xltodb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lakshyakumar/xltodb/issues"
+  },
+  "homepage": "https://github.com/lakshyakumar/xltodb#readme"
+}
